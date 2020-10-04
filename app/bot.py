@@ -9,7 +9,7 @@ URL = 'https://api.telegram.org/bot' + t + '/'
 url_currency = 'https://yobit.net/api/2/usd_rur/ticker'
 global last_update
 last_update = 0
-
+#new commit
 def get_updates(URL=URL):
 	url = URL + 'getUpdates'
 	r = requests.get(url)
